@@ -1,0 +1,57 @@
+{
+    "prize": {
+        "normal": {
+            "1": "衣服（红衣服）",
+            "2": "两只兔子（玩偶）",
+            "3": "年饼",
+            "4": "画画pad 版",
+            "5": "坐垫",
+            "6": "口罩",
+            "7": "百年配套",
+            "8": "餐具配套",
+            "9": "Tupperware水壶",
+            "10": "Mestin 饭盒",
+            "11": "书架",
+            "12": "娃娃",
+            "13": "背包",
+            "14": "小桌子",
+            "15": "U型枕",
+            "16": "小风扇",
+            "17": "杯子",
+            "18": "日历",
+            "19": "蓝牙耳机",
+            "20": "可循环使用吸管"
+        },
+        "third": "none",
+        "second": "none",
+        "grand": "none"
+    },
+    "prize_img": {
+        "1": "./prize/shirt.png",
+        "2": "./prize/rabbit.png",
+        "3": "./prize/biskut.png",
+        "4": "./prize/lcd.png",
+        "5": "./prize/kusion.png",
+        "6": "./prize/mask.png",
+        "7": "百年配套",
+        "8": "./prize/utensils.png",
+        "9": "./prize/botol.png",
+        "10": "./prize/mestin.png",
+        "11": "./prize/rack.png",
+        "12": "./prize/doll.png",
+        "13": "./prize/beg.png",
+        "14": "./prize/foldtable.png",
+        "15": "./prize/neck.png",
+        "16": "./prize/fan.png",
+        "17": "./prize/cup.png",
+        "18": "./prize/kelander.png",
+        "19": "./prize/headphone.png",
+        "20": "./prize/pipe.png"
+    },
+    "prize_taken": {
+        "total_taken": 1
+    },
+    "configuration": {
+        "screen": "1920x1080"
+    }
+}

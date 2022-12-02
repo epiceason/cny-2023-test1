@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>2023年宿舍新春晚会幸运抽奖活动</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="main.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <h1 class="title">2023年宿舍新春晚会幸运抽奖活动</h1>
+            <div class="angpao-container">
+                <a onclick="goLink()" class="" id="img1link"><img src="angpao.png" class="img1 transition" id="1"></a>
+                <a onclick="goLink()" class="" id="img2link"><img src="angpao.png" class="img2 transition" id="2"></a>
+                <a onclick="goLink()" class="" id="img3link"><img src="angpao.png" class="img3 transition" id="3"></a>
+                <a onclick="goLink()" class="" id="img4link"><img src="angpao.png" class="img4 transition" id="4"></a>
+                <a onclick="goLink()" class="" id="img5link"><img src="angpao.png" class="img5 transition" id="5"></a>
+                <a onclick="goLink()" class="" id="img6link"><img src="angpao.png" class="img6 transition" id="6"></a>
+                <a onclick="goLink()" class="" id="img7link"><img src="angpao.png" class="img7 transition" id="7"></a>
+                <a onclick="goLink()" class="" id="img8link"><img src="angpao.png" class="img8 transition" id="8"></a>
+                <a onclick="goLink()" class="" id="img9link"><img src="angpao.png" class="img9 transition" id="9"></a>
+            </div>
+        </div>
+    </body>
+    <script>
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+
+        const randomID = getRandomInt(99999999999);
+
+        function goLink() {
+            window.location.href = "animation?rand=" + randomID
+        }
+    </script>
+    <p id="title"></p>
+</html>

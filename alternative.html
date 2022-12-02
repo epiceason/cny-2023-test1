@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2023年宿舍新春晚会幸运抽奖活动</title>
+    </head>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .center-h {            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .items {
+            width: 250px;
+            height: 250px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: rgb(255, 167, 167);
+            border: 10px solid;
+            animation: items-animation 5s infinite;
+        }
+
+        @keyframes items-animation {
+            0% {border-color: red}
+            50% {border-color: rgb(255, 0, 162)}
+            100% {border-color: red}
+        }
+    </style>
+    <body>
+        <h1>2023年宿舍新春晚会幸运抽奖活动</h1>
+        <div class="container center-h">
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Poppins&display=swap');
+
+html,
+body {
+    overflow: hidden;
+    background: url(rbit.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Ma Shan Zheng';
+}
+
+.background {
+    z-index: 1;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 5em;
+    color: red;
+    text-shadow: 2px 2px white;
+}
+
+@keyframes title-animation {
+    0% {
+    color: red;
+    }
+    50% {
+    color: maroon;
+    }
+    100% {
+    color: red;
+    }
+}
+
+.main-container {
+    padding-top: 125px;
+    text-align: center;
+}
+
+.angpao-container {
+    /* margin-left: 18%; 1080p*/
+    /* margin-left: 28%; 4k*/
+    margin-left: 18%; 
+    display: flex;
+    position: absolute;
+    z-index: 30;
+    bottom: -100px;
+}
+
+/* .angpao-container img {
+    transition: all 0.5s;
+}
+
+.angpao-container img:hover {
+    transition: all 0.6s;
+    transform: translateY(-70%);
+}
+
+.angpao-container .img1 {
+    position: relative;
+    transform: rotate(-40deg);
+}
+
+.angpao-container .img2 {
+    position: relative;
+    left: -100px;
+    transform: rotate(-30deg);
+}
+
+.angpao-container .img3 {
+    position: relative;
+    left: -200px;
+    transform: rotate(-20deg);
+}
+
+.angpao-container .img4 {
+    position: relative;
+    left: -300px;
+    transform: rotate(-10deg);
+}
+
+.angpao-container .img5 {
+    position: relative;
+    left: -400px;
+    transform: rotate(0deg);
+}
+
+.angpao-container .img6 {
+    position: relative;
+    left: -500px;
+    transform: rotate(10deg);
+}
+
+.angpao-container .img7 {
+    position: relative;
+    left: -600px;
+    transform: rotate(20deg);
+}
+
+.angpao-container .img8 {
+    position: relative;
+    left: -700px;
+    transform: rotate(30deg);
+}
+
+.angpao-container .img9 {
+    position: relative;
+    left: -800px;
+    transform: rotate(40deg);
+} */
+
+.angpao-container img {
+    transition: all 0.6s;
+}
+
+.angpao-container .transition {
+    transition: all 0.6s;
+}
+
+.angpao-container .transition:hover {
+    transition: all 0.6s;
+    transform: translateY(-70%);
+
+}
+
+.angpao-container .img1 {
+    position: relative;
+}
+
+.angpao-container .img2 {
+    position: relative;
+    left: -100px;
+}
+
+.angpao-container .img3 {
+    position: relative;
+    left: -200px;
+}
+
+.angpao-container .img4 {
+    position: relative;
+    left: -300px;
+}
+
+.angpao-container .img5 {
+    position: relative;
+    left: -400px;
+}
+
+.angpao-container .img6 {
+    position: relative;
+    left: -500px;
+}
+
+.angpao-container .img7 {
+    position: relative;
+    left: -600px;
+}
+
+.angpao-container .img8 {
+    position: relative;
+    left: -700px;
+}
+
+.angpao-container .img9 {
+    position: relative;
+    left: -800px;
+}
+
+.taken {
+    filter: grayscale(1);
+    pointer-events: none;
+}

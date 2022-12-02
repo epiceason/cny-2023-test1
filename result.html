@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>2023年宿舍新春晚会幸运抽奖活动</title>
+    </head>
+    <script type="module" src="main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Poppins&display=swap');
+
+        html,
+        body {
+            overflow: hidden;
+            background: url(rbit.png);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: 'Ma Shan Zheng';
+        }
+
+        .container {
+            padding-top: 10%;
+            text-align: center;
+            width: 100%;
+            font-size: 3em;
+        }
+
+        .transition {
+            position: absolute;
+            z-index: 100;
+            background-color: black;
+            color: black;
+            top: 0;
+            right: 0;
+            min-height: 100vh;
+            animation: transition 1s forwards;
+        }
+
+        @keyframes transition {
+            0% {min-width: 100vw;}
+            20% {min-width: 100vw;}
+            100% {min-width: 0vw;}
+        }
+
+        .gift_container {
+            color: rgb(240,240,240);
+            text-shadow: 2px 2px black;
+            border-radius: 15px;
+            background-color: rgb(254, 84, 84, 0.5);
+            padding: 15px 30px 15px 30px;
+            margin: 0px 80px 50px 80px;
+        }
+
+        .gift_container img {
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+    <body>
+        <div class="transition"></div>
+        <div class="container">
+            <div id="gift_1" class="gift_container">
+                <img id="gift_img" src="https://i.ytimg.com/vi/tQANVXppDPE/maxresdefault.jpg">
+                <h2 id="gift_title">保温瓶</h2>
+                <p onclick="window.location.href = 'index.html'">恭喜获奖</p>
+            </div>
+        </div>
+    </body>
+</html>
