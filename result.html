@@ -12,7 +12,7 @@
             background: url(rbit.png);
             background-attachment: fixed;
             background-size: 100% 100%;
-            font-family: 'Ma Shan Zheng';
+            font-family: 'Poppins', 'Ma Shan Zheng';
         }
 
         .container {
@@ -46,6 +46,17 @@
             background-color: rgb(254, 84, 84, 0.5);
             padding: 15px 30px 15px 30px;
             margin: 0px 80px 50px 80px;
+            border: 10px solid rgba(255, 0, 0, 0.6);
+            animation: border-animation 5s infinite;
+        }
+
+        @keyframes border-animation {
+            0% {border-color: red}
+            20% {border-color: rgb(255, 0, 43)}
+            40% {border-color: rgb(255, 0, 68)}
+            60% {border-color: rgb(243, 50, 50)}
+            80% {border-color: rgb(251, 59, 59)}
+            100% {border-color: red}
         }
 
         .gift_container img {
@@ -57,8 +68,8 @@
         <div class="transition"></div>
         <div class="container">
             <div id="gift_1" class="gift_container">
-                <img id="gift_img" src="https://i.ytimg.com/vi/tQANVXppDPE/maxresdefault.jpg">
-                <h2 id="gift_title">保温瓶</h2>
+                <img id="gift_img" src="">
+                <h2 id="gift_title"></h2>
                 <p onclick="window.location.href = 'index.html'">恭喜获奖</p>
             </div>
         </div>
